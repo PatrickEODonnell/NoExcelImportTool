@@ -5,7 +5,8 @@ This requires Syncfusion Essentials Community License https://www.syncfusion.com
 
 See DemoConsole for usage:
 
-Steps:
+Steps:  
+
 1. Download  
 
 2. Resolve references to Syncfusion.Compression.Base.dll, Syncfusion.XlsIO.Base.dll (license required - see above).  
