@@ -16,9 +16,9 @@ namespace NoExcelImportTools
             IApplication application = excelEngine.Excel;
             IWorkbook workbook = application.Workbooks.Open(filePath);
             IWorksheet sheet = workbook.Worksheets[0];
-            DataTable dt = sheet.ExportDataTable(sheet.UsedRange, ExcelExportDataTableOptions.ColumnNames);
+            DataTable dataTable = sheet.ExportDataTable(sheet.UsedRange, ExcelExportDataTableOptions.None);
 
-            return dt;
+            return dataTable;
         }
     }
 }
